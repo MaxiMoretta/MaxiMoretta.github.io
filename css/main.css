@@ -1,0 +1,257 @@
+body {margin: 0px;
+ background-color: rgb(233, 233, 233);}
+
+.portada {
+    left: 0px;
+    top: 0px;
+}
+
+.registro{ 
+    position: absolute;
+    width: 1%;
+    margin-left: 90%;}
+
+.registro-img{ 
+    width: 230%;
+    padding: 8px;
+}
+
+.carrito{ 
+    position: absolute;
+    width: 1%;
+    margin-left: 90%;}
+
+.bolso-img{
+    margin-left: 50px;
+    width: 230%;
+    padding: 8px;
+}
+
+h2 {
+    color: rgb(58, 58, 58); 
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.fotos {
+    justify-content: space-around;
+    position: relative;
+}
+
+.fotos a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.img-portada{
+  width: 100%;
+}
+
+.video{
+  margin-top: 30px;
+}
+
+h3 { color: rgb(58, 58, 58); 
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    display: inline;} 
+
+.redes { display: inline ;
+}
+
+.redes-sociales {
+    margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+p { font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;}
+
+
+.eliza-user{
+    position: absolute;
+    bottom: 0px;
+}
+
+.ingresar {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.registrate-1 {
+  margin-top: 20px;
+}
+
+.registrate-1 a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+  color: rgb(165, 165, 165);
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(233, 233, 233);
+  }
+
+.nombre {
+  display: inline ;
+  margin-right: 38px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contraseña {
+  display: inline ;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn {
+    padding: 8px 20px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109),
+      0 1px 1px rgba(128, 128, 128, 0.155),
+      0 2.1px 2.1px rgba(128, 128, 128, 0.195),
+      0 4.4px 4.4px rgba(128, 128, 128, 0.241),
+      0 12px 12px rgba(128, 128, 128, 0.35);}
+
+h5 {
+  color: rgb(235, 235, 235); 
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;     
+  position: relative;
+  font-size: x-large;
+}
+
+h1 {
+  color: rgb(0, 0, 0); 
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;     
+  background: gray;
+  position: relative;
+}
+
+h4 {
+  color: rgb(58, 58, 58); 
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;}
+
+.texto {
+  color: rgb(58, 58, 58); 
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 20px;
+}
+
+.quien-soy{
+  float: left;
+  padding-right: 20px;
+}
+
+.sobre-eliza {
+  padding-left: 20px;
+}
+
+.pie-eliza {
+  padding-top: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+/**
+.grid img {
+  padding: 10px
+}
+**/
+
+.showroom {
+  float: left;
+  padding-right: 20px;
+}
+
+.registro-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 30px;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109),
+    0 1px 1px rgba(128, 128, 128, 0.155),
+    0 2.1px 2.1px rgba(128, 128, 128, 0.195),
+    0 4.4px 4.4px rgba(128, 128, 128, 0.241),
+    0 12px 12px rgba(128, 128, 128, 0.35);
+  margin-top: 70px;
+}
+
+.genero-1{
+  margin-top: 20px;
+  text-align: center;
+  display: inline ;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.apellido {
+  display: inline ;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.email {
+  display: inline ;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nombre-1 {
+  margin-right: 100px;
+  display: inline ;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
