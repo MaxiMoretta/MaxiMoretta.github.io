@@ -1,0 +1,25 @@
+h1 {
+  color: black;
+  background-color: gray;
+  text-align: center;
+  text-transform: uppercase; }
+
+h4 {
+  color: black;
+  margin-left: 20px;
+  text-align: center;
+  margin-bottom: 30px; }
+
+.margen {
+  margin: 5px 1% 20px 1%; }
+
+.sobre-eliza {
+  box-shadow: 7px 7px 5px 0px rgba(117, 116, 116, 0.329);
+  width: 98%; }
+
+footer {
+  margin-top: 30px; }
+
+.showroom {
+  box-shadow: 7px 7px 5px 0px rgba(117, 116, 116, 0.329);
+  width: 100%; }

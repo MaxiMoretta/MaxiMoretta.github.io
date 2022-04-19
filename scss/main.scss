@@ -1,0 +1,39 @@
+$color-titulo: rgb(0, 0, 0);
+$margen-imagen: 5px 1% 20px 1%;
+$sombra: 7px 7px 5px 0px rgba(117, 116, 116, 0.329);
+$centrado-texto: center;
+$texto-mayusculas: uppercase;
+$margen-titulo: 20px;
+
+h1 {
+    color: $color-titulo;
+    background-color: gray;
+    text-align: $centrado-texto;
+    text-transform: $texto-mayusculas;
+}
+
+h4 {
+    color: $color-titulo;
+    margin-left: $margen-titulo;
+    text-align: $centrado-texto;
+    margin-bottom: 30px;
+
+}
+
+.margen {
+    margin: $margen-imagen;
+}
+
+.sobre-eliza {
+    box-shadow: $sombra;
+    width: 98%;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.showroom {
+    box-shadow: $sombra;
+    width: 100%;
+}
