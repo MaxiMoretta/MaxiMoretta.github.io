@@ -1,31 +1,29 @@
-$color-titulo: rgb(0, 0, 0);
-$margen-imagen: 5px 1% 20px 1%;
-$sombra: 7px 7px 5px 0px rgba(117, 116, 116, 0.329);
-$centrado-texto: center;
-$texto-mayusculas: uppercase;
-$margen-titulo: 20px;
+@import "variables";
+@import "mixin";
 
-h1 {
-    color: $color-titulo;
+.titulos {
+    color: map-get( $propiedades, color-titulo );
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:map-get( $propiedades, centrado-texto );
+}
+
+h1 { @extend .titulos;
     background-color: gray;
-    text-align: $centrado-texto;
-    text-transform: $texto-mayusculas;
+    text-transform:map-get( $propiedades, texto-mayusculas);
 }
 
 h4 {
-    color: $color-titulo;
-    margin-left: $margen-titulo;
-    text-align: $centrado-texto;
+    @extend .titulos;
+    margin-left: map-get( $propiedades,margen-titulo);
     margin-bottom: 30px;
-
 }
 
 .margen {
-    margin: $margen-imagen;
+    margin:map-get( $propiedades, margen-imagen);
 }
 
 .sobre-eliza {
-    box-shadow: $sombra;
+    box-shadow: map-get( $propiedades,sombra);
     width: 98%;
 }
 
@@ -34,6 +32,6 @@ footer {
 }
 
 .showroom {
-    box-shadow: $sombra;
+    box-shadow: map-get( $propiedades,sombra) ;
     width: 100%;
 }
