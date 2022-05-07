@@ -64,12 +64,6 @@
   --bs-body-bg: #fff;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;

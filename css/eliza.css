@@ -1,15 +1,3 @@
-/**
-.home {
-    position: absolute;
-    top: 0;
-    z-index: -100;
-}
-
-.transparente {
-    background-color: #ffffff4f!important;
-}
-**/
-
 
 .eliza-link {
     position: absolute;
@@ -19,8 +7,9 @@
     text-align: center;
     color: white;
     font-weight: bold;
-    background-color: rgba(36, 36, 36, 0.295);
+    background-color: #2424244b;
     width: 90%;
+    border-radius: 3px;
 }
 
 .video {
