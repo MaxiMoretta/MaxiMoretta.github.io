@@ -3,7 +3,6 @@
 
 .titulos {
     color: map-get( $propiedades, color-titulo );
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align:map-get( $propiedades, centrado-texto );
 }
 

@@ -198,12 +198,6 @@ h4 {
   grid-row-gap: 30px;
 }
 
-/**
-.grid img {
-  padding: 10px
-}
-**/
-
 .showroom {
   float: left;
   padding-right: 20px;
@@ -254,4 +248,14 @@ h4 {
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.subtitulo {
+  margin-top: 30px;
+}
+
+.subtitulo-inferior {
+  text-align: center;
+  color: darkgray;
+  font-size: 20px;
 }
